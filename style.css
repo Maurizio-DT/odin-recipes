@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.2em;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin: 1em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 1em 0 0.5em 0;
+}
+
+.eta {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0.5em;
+}
+
+p{
+    line-height: 1.2em;
+}
+
+ul li,
+ol li {
+    line-height: 1.5em;
+}
+
+img {
+    margin: 0 auto;
+}
+
+.homeMenu {
+    text-align: center;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.homeLink {
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1em 0;
+    padding: 0.5em;
+}
+
+
