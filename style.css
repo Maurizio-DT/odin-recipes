@@ -15,16 +15,24 @@ html {
 
 body {
     font-size: 1.2em;
-    font-family: Helvetica, Arial, sans-serif;
-    width: 50%;
+    font-family: Tahoma, sans-serif;
     margin: 0 auto;
-    background-color: lightgrey;
+    background-color: #3aafa9;
+    color: #1c5755;
+}
+
+.container {
+    width: 50%;
+    margin: 2% auto;
+    background-color: #def2f1;
+    padding: 2% 4%;
+    border-radius: 25px;
 }
 
 h1 {
     font-size: 2em;
+    margin: 2% auto 4% auto;
     text-align: center;
-    margin: 1em 0;
 }
 
 h2 {
@@ -46,8 +54,14 @@ ol li {
     line-height: 1.5em;
 }
 
+ol li {
+    margin-bottom: 2%;
+}
+
 img {
+    display: block;
     margin: 0 auto;
+    border-radius: 25px;
 }
 
 .homeMenu {
@@ -55,12 +69,12 @@ img {
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
+.homeMenu a:visited {
+    color: #1c5755;
 }
 
-a:visited {
-    color: inherit;
+a {
+    text-decoration: none;
 }
 
 a:hover {
@@ -68,11 +82,16 @@ a:hover {
 }
 
 .homeLink {
+    background-color: #3aafa9;
     display: block;
+    width: 20%;
     font-size: 1.5em;
     text-align: center;
-    margin: 1em 0;
+    margin: 2em auto 1em auto;
     padding: 0.5em;
+    color: #def2f1;
+    border-radius: 10px;
 }
+
 
 
